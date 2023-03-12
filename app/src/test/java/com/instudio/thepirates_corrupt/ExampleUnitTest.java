@@ -1,4 +1,4 @@
-package com.example.thepirates;
+package com.instudio.thepirates_corrupt;
 
 import org.junit.Test;
 

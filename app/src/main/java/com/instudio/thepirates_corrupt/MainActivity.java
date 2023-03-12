@@ -1,4 +1,4 @@
-package com.example.thepirates;
+package com.instudio.thepirates_corrupt;
 
 import android.os.Bundle;
 
@@ -6,9 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.KeyEvent;
 import android.webkit.WebChromeClient;
-import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                webView.loadUrl("https://pirates-cheesu.koyeb.app/");
+                webView.loadUrl("https://pirates-cheesu.koyeb.app/game");
             }
         });
     }
@@ -72,12 +73,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        // WebView 리소스 해제
-        webView.destroy();
-    }
 
 }

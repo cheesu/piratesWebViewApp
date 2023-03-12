@@ -1,4 +1,4 @@
-package com.example.thepirates;
+package com.instudio.thepirates_corrupt;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.thepirates", appContext.getPackageName());
+        assertEquals("com.instudio.thepirates_corrupt", appContext.getPackageName());
     }
 }
